@@ -1,8 +1,8 @@
-# SOC Analyst Projects – Mary👩🏽‍💻
+# SOC Analyst Projects – Mary
 
 This repository showcases a series of defensive security tools and automation scripts developed during my transition into a SOC Analyst role. Each project focuses on key areas of security operations, such as log analysis, incident detection, and alert triage — using industry-relevant tools and techniques.
 
-## 🔍 Suspicious Logon Monitor (PowerShell)
+##  Suspicious Logon Monitor (PowerShell)
 
 A custom-built PowerShell script designed to:
 
@@ -13,7 +13,7 @@ A custom-built PowerShell script designed to:
 
 This tool simulates real-world alert triage workflows and complements SIEM-based detection by offering host-level monitoring.
 
-## 🔧 Tools & Techniques Applied
+##  Tools & Techniques Applied
 
 - **PowerShell Scripting** – log parsing, alert generation, and automation
 - **Event Log Analysis** – Event IDs 4624, 4625, 4672
@@ -22,14 +22,14 @@ This tool simulates real-world alert triage workflows and complements SIEM-based
 - **SIEM Mindset** – while not integrated with a SIEM, this tool models the logic behind correlation rules in platforms like **Splunk** or **Microsoft Sentinel**
 - **Ticketing System Simulation** – planning integration with CSV/JSON for potential ingestion into systems like **ServiceNow**
 
-## 🧠 Skills Demonstrated
+## Skills Demonstrated
 
 - Endpoint monitoring using native Windows tools
 - Basic threat detection logic for brute-force and privilege escalation attempts
 - Incident investigation workflow simulation
 - Secure scripting practices and logging hygiene
 
-## 🎯 Next Steps
+## Next Steps
 
 - Integrate with Sysmon and parse enhanced telemetry
 - Build Sigma-like rules to simulate SIEM correlation
