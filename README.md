@@ -3,6 +3,13 @@
 This repository showcases a series of defensive security tools and automation scripts developed during my transition into a SOC Analyst role. Each project focuses on key areas of security operations, such as log analysis, incident detection, and alert triage — using industry-relevant tools and techniques.
 
 ##  Suspicious Logon Monitor (PowerShell)
+How It Works
+
+This PowerShell script analyzes Windows Security Event Logs to detect suspicious logon activity — particularly Logon Type 5, which is typically used by services. It supports:
+	•	Log collection: Retrieves 4624 (successful) and 4625 (failed) logon events within the last 24 hours
+	•	Logon type filtering: Filters for Logon Type 5 events that may indicate abnormal service behavior
+	•	Rolling history: Appends findings to a .csv file and maintains only the most recent 7 days
+	•	Optional alerting: If configured, the script can send alert emails when suspicious activity is detected
 
 A custom-built PowerShell script designed to:
 
